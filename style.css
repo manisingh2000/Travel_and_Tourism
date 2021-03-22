@@ -1,0 +1,224 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-caption{
+      padding-bottom: 250px;
+      font-family: poppins;
+      justify-content: center;
+  }
+   .taj{
+    padding-bottom: 250px;
+    font-family: poppins;
+    justify-content: center;
+}
+  .carousel-caption h2{
+      font-size: 50px;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+  .carousel-caption h3{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:darkgreen;
+    padding-bottom: 50px;
+}
+  .carousel-caption h2 span{
+      color:teal;
+  }
+  .carousel-caption h3 span{
+    color:rgb(0, 66, 66);
+}
+  .carousel-caption .plan{
+     height:50px;
+      padding:50px;
+     background-color:transparent;
+      justify-content: center;
+  }
+ .carousel-caption .input-group{
+     width:90%;
+     max-width: 500px;
+     border-radius:30px;
+     background: #fff;
+     margin:auto;
+     padding:2px;
+ }
+.form-control{
+    border:0 !important;
+    border-radius: 30px 0 0 30px !important;
+    margin: 2px;
+   box-shadow: none impo !important; 
+}
+.inout-group-text-btn{
+    width:100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border:0 im !important;
+    color:#fff !important;
+    padding:0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+.nav-item{
+     margin-right: 10px;
+}
+   
+ 
+  
+  .navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: -100px;
+
+    
+  }
+
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    background: #fff;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-link {
+    padding: .2rem 1rem;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  
+  .nav-link.active,.nav-link:focus{
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  
+  /* features*/
+  .features{
+     padding:100px 0;
+  }
+  h1{
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .price{
+    width:40px;
+    height:40px;
+    background: #ff5722;
+    color:#fff;
+    font-weight: 500;
+    border-radius: 50%;
+    padding:10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left:10px;
+    bottom:-15px;
+}
+  .feature-img{
+    position: relative;
+  }
+  .rating{
+   padding : 1px;
+   float:right;
+   background: #fff;
+   bottom: -1px;
+   right: 1px;
+   
+   position: absolute;
+  }
+  .features .fa{
+    font-size:15px ;
+    color: #ff5722;
+  }
+  .feature-details{
+    padding: 10px;
+    text-align: justify;
+    
+  }
+  
+  .feature-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .feature-details .fa{
+    margin-right: 5px;
+  }
+  .feature-box{
+    box-shadow:0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+  }
+  .gallery{
+    width: 100%;
+    padding: 100px 0;
+    background:#efeefe ;
+  }
+  .gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .gallery-box img{
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 1s;
+  }
+  .gallery-box img:hover{
+    transform: scale(1.1);
+  }
+  .gallery-box h4{
+    display: block;
+    width:200px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: -2px 2px 2px rgb(240, 187, 187) ;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 25px;
+    transform: translateY(-115px);
+  }
+  .banner{
+    height: 80vh;
+    background-image:url("ma1.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 12%;
+  }
+  .banner-highlights{
+    padding: 70px 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+  }
+  .booking-btn{
+    width: 120px;
+    padding: 8px 0;
+    outline: none im !important;
+    border-radius: 50px;
+    background: transparent;
+    color:#fff;
+    margin-top: 20px;
+  }
