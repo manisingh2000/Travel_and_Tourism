@@ -1,6 +1,4 @@
-body{
-  scroll-behavior: smooth;
-}
+
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -211,7 +209,7 @@ body{
   }
   .banner{
     height: 80vh;
-    background-image:url("ma1.jpg");
+    background-image:url("/images/ma1.jpg");
     background-position: center;
     background-size: cover;
     padding-top: 12%;
