@@ -11,10 +11,7 @@ session_start();
     <?php include 'style1.php' ?>
     <?php include 'links.php' ?>
     <style>
-        /* body{
-            background-image: url("signup.png");
-            background-size: cover;
-        } */
+        
     </style>
 </head>
 
@@ -78,14 +75,7 @@ session_start();
                 </div>
                 <input name="email" class="form-control" placeholder=" Enter User name" type="email" required>
             </div>
-            <!-- <div class="form-group input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text"><span class="material-icons">
-                            mail
-                        </span> </span>
-                </div>
-                <input name="email" class="form-control" placeholder="Email address" type="email" required>
-            </div> -->
+            
 
             <div class="form-group input-group">
                 <div class="input-group-prepend">
