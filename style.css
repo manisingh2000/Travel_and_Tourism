@@ -134,85 +134,11 @@ header.sticky{
     border-radius: 30px !important;
     box-shadow: none !important;
 }
-.nav-item{
-     margin-right: 10px;
-     letter-spacing: 2px;
-     font-weight: 500px;
-     transition: 0.6s;
-    
-    
-    
-}
-header.sticky{
-  padding: 5px 100px;
-  background-color:rgb(22, 22, 22);
-  height: 70px;
-  width: 100px;
-}
-
- 
-   
- 
-  
-  .navbar-light .navbar-brand {
-    color: #fff;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-left: -100px;
-
-    
-  }
- 
-
- header.sticky .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-    color: #fff;
-  }
-   
-  .navbar-light .navbar-nav .nav-link {
-    color: #fff;
-  }
-  #tour-name h3{
-    color: black;
-  }
-  #tour-price {
-    color: grey ;
-  }
-  #tour-price h3{
-    display: inline-block;
-    color: black;
-  }
-  #cont{
-    color: grey;
-    font-weight: 500;
-    text-align: justify;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  #info-lft{
-    color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    font-size: large;
-  }
-  
-  #plan-5{
-    color: grey ;
-    text-align: justify;
-  }
-  #plan-5 h5{
-    color: rgb(117,210,223);
-  }
-  #Gallery1 img{
-    width: 280px;
-    height: 280px;
-    padding: 10px;
-  }
-  /*tour nav*/
   .head img{
     width: 100%;
     height: 80vh;
   }
+  /*tour nav*/
   .container .sec_nav .row{
     padding: 12px 0 11px 0;
     transform: translateY(-7vh);
@@ -257,7 +183,6 @@ header.sticky{
     height: 280px;
     padding: 10px;
   }
-  
   /* features*/
   .features{
      padding:100px 0;
@@ -267,16 +192,16 @@ header.sticky{
     padding-bottom: 30px;
   }
   .price{
-    width:60px;
+    width:40px;
     height:40px;
     background: #ff5722;
     color:#fff;
-    font-weight: 300;
+    font-weight: 500;
     border-radius: 50%;
     padding:10px;
     box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
     position: absolute;
-    left:9px;
+    left:10px;
     bottom:-15px;
 }
   .feature-img{
@@ -422,7 +347,7 @@ header.sticky{
   text-align: center;
   padding: 40px 20px;
   transition: all ease-in-out 0.3s;
-  box-shadow: 2px 4px rgba(94, 90, 90, 0.5);
+  box-shadow: 2px 4px rgba(19,19,19,0.5);
 }
 .services .icon-circle.purple{
   background: #3e0283;
